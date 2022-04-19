@@ -116,3 +116,42 @@
 # with open('test.txt', 'r') as t:
 #     print(t.read(10))  # читаются только первые 10 байт
 #     print(t.read())  # выполняется оставшаяся часть файла
+
+
+''' None, Dictionary '''
+
+# def test():
+#     print('Test')
+#
+# azaza = test()
+# print(azaza)
+
+
+# test = {
+#     'key1': 'value1',
+#     11: {
+#         'short_value': 'eleven'
+#     }
+# }
+#
+# try:
+#     print(test["test"])
+#     # print(test["key1"])
+# except KeyError:
+#     print("not key")
+
+
+# contacts = {
+#     "Andry": "+25325413",
+#     "Tony": "+253225558",
+# }
+
+# testing = input("Who is looking?: ")
+#
+# if testing in contacts:
+#     print("Contact info: " + contacts[testing])
+# else:
+#     print("not finded contact")
+
+# print(contacts["Andry T."])
+# print(contacts.get("Andry T.", "not finded"))
