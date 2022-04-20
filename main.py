@@ -155,3 +155,21 @@
 
 # print(contacts["Andry T."])
 # print(contacts.get("Andry T.", "not finded"))
+
+
+''' Pass, Tuple (кортеж - списки, кот. нельзя изменять) '''
+
+# def main():
+#     pass
+# print("проверка кода")
+
+# #  это СПИСКИ
+# numbers = [1, 2, 4, 32, 4, 5]
+# numbers[0] = 0
+# print(numbers[0])
+
+#  это Кортеж
+# numbers = (1, 2, 4, 32, 4, 5)
+# numbers = 1, 2, 4, 32, 4, 5   # будет аналогично предедущей строке
+# numbers[0] = 0                # не допустимо
+# print(numbers[0])
